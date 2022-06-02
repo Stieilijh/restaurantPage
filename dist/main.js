@@ -1,1 +1,1 @@
-document.getElementById("content").textContent="Worked";
+(()=>{"use strict";document.querySelector("#content").appendChild(function(){const e=document.createElement("ul"),t=document.createElement("li");t.textContent="Home",e.appendChild(t);const n=document.createElement("li");n.textContent="Menu",e.appendChild(n);const c=document.createElement("li");return c.textContent="About",e.appendChild(c),e}())})();
