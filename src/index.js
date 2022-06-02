@@ -3,8 +3,16 @@ import createNavBar from "./components/navBar"
 
 
 document.querySelector('body').style='margin:0;'
-const content=document.querySelector('#content')
 
-content.appendChild(createLogo())
-content.appendChild(createNavBar())
+const fullContent=document.querySelector('#content')
+//Top content
+const topCont = document.createElement('div')
+topCont.id="topCont"
+topCont.style.display="flex"
+topCont.style.justifyContent="flex-start"
+topCont.style.gap="10%"
+topCont.style.backgroundColor="Blue"
+fullContent.appendChild(topCont)
+topCont.appendChild(createLogo())
+topCont.appendChild(createNavBar())
 

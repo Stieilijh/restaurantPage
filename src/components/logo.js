@@ -6,5 +6,6 @@ export default function createLogo(){
     icon.src= Icon
     logo.appendChild(icon)
     icon.style='max-width:auto;max-height:50px;'
+    logo.style.marginLeft="10%"
     return logo
 }

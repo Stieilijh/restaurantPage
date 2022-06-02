@@ -18,7 +18,10 @@ module: {
     },
     {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
+        loader:"file-loader",
+        options:{
+            name:"images/[name].[ext]"
+        }
     },
     ],
 },
