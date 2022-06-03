@@ -1,4 +1,4 @@
-import Icon from "./images/logo.jpeg"
+import Icon from "../images/logo.jpeg"
 export default function createLogo(){
     const logo = document.createElement("div")
     logo.id="logo"

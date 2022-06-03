@@ -1,0 +1,9 @@
+#topCont{
+    display: flex;
+    justify-content: flex-start;
+    gap:10%;
+    background-color: blue;
+}
+body{
+    margin:0;
+}
