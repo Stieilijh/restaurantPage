@@ -1,5 +1,8 @@
 import createLogo from "./components/js/logo"
 import createNavBar from "./components/js/navBar"
+import createAboutTab from "./components/js/aboutTab"
+import createHomeTab from "./components/js/homeTab"
+import createMenuTab from "./components/js/menuTab"
 import './style.css'
 
 const fullContent=document.querySelector('#content')

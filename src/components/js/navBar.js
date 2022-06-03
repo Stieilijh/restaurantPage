@@ -4,17 +4,23 @@ export default function createNavBar(){
     navBar.id="navBar"
     
     const homeButton = document.createElement("li")
-    homeButton.textContent="Home"
+    const homeDiv =document.createElement('div')
+    homeDiv.textContent="Home"
+    homeButton.appendChild(homeDiv)
     homeButton.id='home'
     navBar.appendChild(homeButton)  
 
     const menuButton = document.createElement("li")
-    menuButton.textContent="Menu"
+    const menuDiv =document.createElement('div')
+    menuDiv.textContent="Menu"
+    menuButton.appendChild(menuDiv)
     menuButton.id='menu'
     navBar.appendChild(menuButton)
 
     const aboutButton = document.createElement("li")
-    aboutButton.textContent="About"
+    const aboutDiv =document.createElement('div')
+    aboutDiv.textContent="About"
+    aboutButton.appendChild(aboutDiv)
     aboutButton.id='about'
     navBar.appendChild(aboutButton)
 
