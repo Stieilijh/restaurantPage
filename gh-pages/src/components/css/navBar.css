@@ -1,0 +1,19 @@
+#navBar{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    gap: 20%;
+    font-size: 1.6em;
+    padding-inline-start: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+.navBarItems{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.navBarItems:hover{
+    background-color: aqua;
+}
