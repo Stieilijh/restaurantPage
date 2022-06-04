@@ -6,7 +6,9 @@ import createMenuTab from "./components/js/menuTab"
 import './style.css'
 
 const fullContent=document.querySelector('#content')
+//variables
 const navBar=createNavBar()
+const homeTab = createHomeTab()
 //Top content
 const topCont = document.createElement('div')
 topCont.id="topCont"
@@ -17,6 +19,7 @@ fullContent.appendChild(topCont)
 //tab
 const tabContent=document.createElement('div')
 tabContent.id='tabContent'
+tabContent.appendChild(homeTab)
 fullContent.appendChild(tabContent)
 
 //adding actionlistners to navBar
@@ -27,7 +30,7 @@ listItems.forEach((item)=>{
         if(item.id==="menu")
             tabContent.appendChild(createMenuTab())
         else if(item.id==="home")
-            tabContent.appendChild(createHomeTab())
+            tabContent.appendChild(homeTab)
         else if(item.id==="about")
             tabContent.appendChild(createAboutTab())
     })

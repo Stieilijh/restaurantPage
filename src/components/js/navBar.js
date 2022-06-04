@@ -8,6 +8,7 @@ export default function createNavBar(){
     homeDiv.textContent="Home"
     homeButton.appendChild(homeDiv)
     homeButton.id='home'
+    homeButton.className='navBarItems'
     navBar.appendChild(homeButton)  
 
     const menuButton = document.createElement("li")
@@ -15,6 +16,7 @@ export default function createNavBar(){
     menuDiv.textContent="Menu"
     menuButton.appendChild(menuDiv)
     menuButton.id='menu'
+    menuButton.className='navBarItems'
     navBar.appendChild(menuButton)
 
     const aboutButton = document.createElement("li")
@@ -22,6 +24,7 @@ export default function createNavBar(){
     aboutDiv.textContent="About"
     aboutButton.appendChild(aboutDiv)
     aboutButton.id='about'
+    aboutButton.className='navBarItems'
     navBar.appendChild(aboutButton)
 
     return navBar

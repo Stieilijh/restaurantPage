@@ -3,7 +3,15 @@
     justify-content: flex-start;
     gap:10%;
     background-color: blue;
+    border: 1px solid white;
+    border-radius: 4px;
 }
 body{
     margin:0;
+}
+#tabContent{
+    background-color: antiquewhite;
+    margin: 2% 3%;
+    border: 2px solid black;
+    padding:1%;
 }

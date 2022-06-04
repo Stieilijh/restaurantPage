@@ -9,11 +9,11 @@
     margin-block-end: 0;
     margin-block-start: 0;
 }
-li{
+.navBarItems{
     color: white;
     display: flex;
     align-items: center;
 }
-li:hover{
-    filter:contrast(1);
+.navBarItems:hover{
+    background-color: aqua;
 }
